@@ -1,0 +1,252 @@
+* {box-sizing: border-box; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .logo {
+        display: inline-block; 
+        margin-right: 10px; 
+    }
+    
+    .logo img {
+        max-width: 110px; 
+        height: auto;
+    }
+
+#wrapper {
+    width: 100%;
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+#wrapper ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: #122D62;
+
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+    color: #89c4f0;
+    font-family: Tahoma, Arial, sans-serif;
+    margin: 0;
+    
+}
+
+
+
+header{
+    background-color: #229DF9;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1340px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header h1 {
+    flex: 1; 
+}
+
+header a{
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+nav {
+    
+    text-align: left;
+    font-size: 25px;
+    
+}
+
+nav ul {
+    background-color: #215098;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline;
+    position: relative;
+
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: #d6dbe4;
+    text-decoration: none;
+}
+
+nav ul li ul .dropdown li {
+    display: block;
+}
+
+nav ul li ul.dropdown {
+    width: auto;
+    position: absolute;
+    display: none;
+    z-index: 999;
+    font-size: 15px;
+    overflow: hidden;
+
+}
+
+nav ul li a:hover {
+    background-color: #229DF9;    
+}
+
+nav ul li:hover ul.dropdown {
+    display: block;
+}
+
+#search {
+    padding: 15px;
+    width: 200px;
+   
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#search-button {
+    padding: 10px 20px;
+    background-color: #229DF9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #1866b7;
+}
+
+.login-signup {
+    margin-top: 10px;
+}
+
+.login-signup a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.login-signup .divider {
+    color: #fff;
+    margin: 0 10px;
+}
+
+main {
+   margin-left: 50px; 
+}
+
+main p{
+    color:#d6dbe4
+}
+
+#featured {
+    text-align: left;
+    margin-top: 150px;
+}
+
+#featured h3 {
+   background-color: #85b3d6;
+   padding: 10px 20px;
+   border-radius: 10px;
+   display: inline-block;
+   text-decoration: none;
+   margin: 0 auto;
+}
+
+.featured-games-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.featured-games-list li {
+    margin: 10px;
+    text-align: center;
+}
+
+.featured-games-list img {
+    max-width: 150px; 
+    display: block;
+    margin: 0 auto;
+}
+
+.featured-games-list a {
+    text-decoration: none;
+    color: #229DF9;
+}
+
+.game-list-container {
+    max-height: 300px;
+    overflow: auto;
+}
+
+.gamelogo {
+    position: relative;
+    display: inline-block;
+}
+
+.gamelogo .add-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #229DF9;
+    border-radius: 50%; 
+    padding: 5px;
+    cursor: pointer;
+    opacity: 0; 
+    transition: opacity 0.2s; 
+}
+
+.gamelogo .add-button i {
+    font-size: 1.5rem; 
+    color: #8080ff; 
+}
+
+.game-logo:hover .add-button {
+    opacity: 1;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-table {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+
+
