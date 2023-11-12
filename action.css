@@ -159,21 +159,22 @@ main p{
     color:#d6dbe4
 }
 
-#featured {
+#fighters {
     text-align: left;
-    margin-top: 150px;
+    margin-top: 95px;
 }
 
-#featured h3 {
+#fighters h3 {
    background-color: #85b3d6;
    padding: 10px 20px;
    border-radius: 10px;
    display: inline-block;
    text-decoration: none;
    margin: 0 auto;
+   color: #122D62;
 }
 
-.featured-games-list {
+.fighters-games-list {
     list-style: none;
     padding: 0;
     display: flex;
@@ -183,21 +184,149 @@ main p{
     align-items: center;
 }
 
-.featured-games-list li {
+.fighters-games-list li {
     margin: 10px;
     text-align: center;
 }
 
-.featured-games-list img {
+.fighters-games-list img {
     max-width: 150px; 
     display: block;
     margin: 0 auto;
 }
 
-.featured-games-list a {
+.fighters-games-list a {
     text-decoration: none;
     color: #229DF9;
 }
+
+#hackslash {
+    text-align: left;
+    margin-top: 95px;
+}
+
+#hackslash h3 {
+   background-color: #85b3d6;
+   padding: 10px 20px;
+   border-radius: 10px;
+   display: inline-block;
+   text-decoration: none;
+   margin: 0 auto;
+   color: #122D62;
+}
+
+.hackslash-games-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hackslash-games-list li{
+    margin: 10px;
+    text-align: center;
+}
+
+.hackslash-games-list img {
+    max-width: 150px; 
+    display: block;
+    margin: 0 auto;  
+}
+
+.hackslash-games-list a {
+    text-decoration: none;
+    color: #229DF9;
+}
+
+#FPSgames {
+    text-align: left;
+    margin-top: 95px;
+}
+
+#FPSgames h3 {
+   background-color: #85b3d6;
+   padding: 10px 20px;
+   border-radius: 10px;
+   display: inline-block;
+   text-decoration: none;
+   margin: 0 auto;
+   color: #122D62;
+}
+
+.fps-games-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fps-games-list li{
+    margin: 10px;
+    text-align: center;
+}
+
+.fps-games-list img {
+    max-width: 150px; 
+    display: block;
+    margin: 0 auto;  
+}
+
+.fps-games-list a {
+    text-decoration: none;
+    color: #229DF9;
+}
+
+
+
+
+#Platformers {
+    text-align: left;
+    margin-top: 95px;
+}
+
+#Platformers h3 {
+   background-color: #85b3d6;
+   padding: 10px 20px;
+   border-radius: 10px;
+   display: inline-block;
+   text-decoration: none;
+   margin: 0 auto;
+   color: #122D62;
+}
+
+.plat-games-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.plat-games-list li{
+    margin: 10px;
+    text-align: center;
+}
+
+.plat-games-list img {
+    max-width: 150px; 
+    display: block;
+    margin: 0 auto;  
+}
+
+.plat-games-list a {
+    text-decoration: none;
+    color: #229DF9;
+}
+
+
 
 .game-list-container {
     max-height: 300px;
@@ -247,47 +376,6 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between; 
     align-items: center;
-}
-
-
-#mostplayed {
-    text-align: left;
-    margin-top: 150px;
-}
-
-#mostplayed h3 {
-   background-color: #85b3d6;
-   padding: 10px 20px;
-   border-radius: 10px;
-   display: inline-block;
-   text-decoration: none;
-   margin: 0 auto;
-}
-
-.mostplayed-games-list {
-    list-style: none;
-    padding: 0;
-    display: flex;
-  
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-}
-
-.mostplayed-games-list li {
-    margin: 10px;
-    text-align: center;
-}
-
-.mostplayed-games-list img {
-    max-width: 150px; 
-    display: block;
-    margin: 0 auto;
-}
-
-.mostplayed-games-list a {
-    text-decoration: none;
-    color: #229DF9;
 }
 
 
