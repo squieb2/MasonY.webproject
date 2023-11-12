@@ -326,6 +326,647 @@ main p{
     color: #229DF9;
 }
 
+#actionadv {
+    text-align: left;
+    margin-top: 95px;
+}
+
+#actionadv h3 {
+    background-color: #85b3d6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #122D62;
+}
+
+.actionadv-games-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.actionadv-games-list li {
+    margin: 10px;
+    text-align: center;
+}
+
+.actionadv-games-list img {
+    max-width: 150px; 
+    display: block;
+    margin: 0 auto;  
+}
+
+.actionadv-games-list a {
+    text-decoration: none;
+    color: #229DF9;
+}
+
+#metroid {
+    text-align: left;
+    margin-top: 95px;
+}
+
+#metroid h3 {
+    background-color: #85b3d6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #122D62;
+}
+
+.metroid-games-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.metroid-games-list li {
+    margin: 10px;
+    text-align: center;
+}
+
+.metroid-games-list img {
+    max-width: 150px; 
+    display: block;
+    margin: 0 auto;  
+}
+
+.metroid-games-list a {
+    text-decoration: none;
+    color: #229DF9;
+}
+
+#puzzle {
+    text-align: left;
+    margin-top: 95px;
+}
+
+#puzzle h3 {
+    background-color: #85b3d6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #122D62;
+}
+
+.puzzle-games-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.puzzle-games-list li {
+    margin: 10px;
+    text-align: center;
+}
+
+.puzzle-games-list img {
+    max-width: 150px; 
+    display: block;
+    margin: 0 auto;  
+}
+
+.puzzle-games-list a {
+    text-decoration: none;
+    color: #229DF9;
+}
+
+#visnovel {
+    text-align: left;
+    margin-top: 95px;
+}
+
+#visnovel h3 {
+    background-color: #85b3d6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #122D62;
+}
+
+.visnovel-games-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.visnovel-games-list li {
+    margin: 10px;
+    text-align: center;
+}
+
+.visnovel-games-list img {
+    max-width: 150px; 
+    display: block;
+    margin: 0 auto;  
+}
+
+.visnovel-games-list a {
+    text-decoration: none;
+    color: #229DF9;
+}
+
+#survival {
+    text-align: left;
+    margin-top: 95px;
+}
+
+#survival h3 {
+    background-color: #85b3d6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #122D62;
+}
+
+.survival-games-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.survival-games-list li {
+    margin: 10px;
+    text-align: center;
+}
+
+.survival-games-list img {
+    max-width: 150px; 
+    display: block;
+    margin: 0 auto;  
+}
+
+.survival-games-list a {
+    text-decoration: none;
+    color: #229DF9;
+}
+
+
+
+
+#horror {
+    text-align: left;
+    margin-top: 95px;
+}
+
+#horror h3 {
+    background-color: #85b3d6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #122D62;
+}
+
+.horror-games-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.horror-games-list li {
+    margin: 10px;
+    text-align: center;
+}
+
+.horror-games-list img {
+    max-width: 150px; 
+    display: block;
+    margin: 0 auto;  
+}
+
+.horror-games-list a {
+    text-decoration: none;
+    color: #229DF9;
+}
+
+
+
+#actionRPG {
+    text-align: left;
+    margin-top: 95px;
+}
+
+#actionRPG h3 {
+    background-color: #85b3d6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #122D62;
+}
+
+.actionRPG-games-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.actionRPG-games-list li {
+    margin: 10px;
+    text-align: center;
+}
+
+.actionRPG-games-list img {
+    max-width: 150px; 
+    display: block;
+    margin: 0 auto;  
+}
+
+.actionRPG-games-list a {
+    text-decoration: none;
+    color: #229DF9;
+}
+
+
+#JRPG {
+    text-align: left;
+    margin-top: 95px;
+}
+
+#JRPG h3 {
+    background-color: #85b3d6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #122D62;
+}
+
+.JRPG-games-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.JRPG-games-list li {
+    margin: 10px;
+    text-align: center;
+}
+
+.JRPG-games-list img {
+    max-width: 150px; 
+    display: block;
+    margin: 0 auto;  
+}
+
+.JRPG-games-list a {
+    text-decoration: none;
+    color: #229DF9;
+}
+
+#advRPG {
+    text-align: left;
+    margin-top: 95px;
+}
+
+#advRPG h3 {
+    background-color: #85b3d6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #122D62;
+}
+
+.advRPG-games-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.advRPG-games-list li {
+    margin: 10px;
+    text-align: center;
+}
+
+.advRPG-games-list img {
+    max-width: 150px; 
+    display: block;
+    margin: 0 auto;  
+}
+
+.advRPG-games-list a {
+    text-decoration: none;
+    color: #229DF9;
+}
+
+
+
+
+#strat {
+    text-align: left;
+    margin-top: 95px;
+}
+
+#strat h3 {
+    background-color: #85b3d6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #122D62;
+}
+
+.strat-games-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.strat-games-list li {
+    margin: 10px;
+    text-align: center;
+}
+
+.strat-games-list img {
+    max-width: 150px; 
+    display: block;
+    margin: 0 auto;  
+}
+
+.strat-games-list a {
+    text-decoration: none;
+    color: #229DF9;
+}
+
+
+#lifesim {
+    text-align: left;
+    margin-top: 95px;
+}
+
+#lifesim h3 {
+    background-color: #85b3d6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #122D62;
+}
+
+.lifesim-games-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.lifesim-games-list li {
+    margin: 10px;
+    text-align: center;
+}
+
+.lifesim-games-list img {
+    max-width: 150px; 
+    display: block;
+    margin: 0 auto;  
+}
+
+.lifesim-games-list a {
+    text-decoration: none;
+    color: #229DF9;
+}
+
+
+
+
+#vehiclesim {
+    text-align: left;
+    margin-top: 95px;
+}
+
+#vehiclesim h3 {
+    background-color: #85b3d6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #122D62;
+}
+
+.vehiclesim-games-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.vehiclesim-games-list li {
+    margin: 10px;
+    text-align: center;
+}
+
+.vehiclesim-games-list img {
+    max-width: 150px; 
+    display: block;
+    margin: 0 auto;  
+}
+
+.vehiclesim-games-list a {
+    text-decoration: none;
+    color: #229DF9;
+}
+
+
+#football {
+    text-align: left;
+    margin-top: 95px;
+}
+
+#football h3 {
+    background-color: #85b3d6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #122D62;
+}
+
+.football-games-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.football-games-list li {
+    margin: 10px;
+    text-align: center;
+}
+
+.football-games-list img {
+    max-width: 150px; 
+    display: block;
+    margin: 0 auto;  
+}
+
+.football-games-list a {
+    text-decoration: none;
+    color: #229DF9;
+}
+
+
+
+#bball {
+    text-align: left;
+    margin-top: 95px;
+}
+
+#bball h3 {
+    background-color: #85b3d6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #122D62;
+}
+
+.bball-games-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bball-games-list li {
+    margin: 10px;
+    text-align: center;
+}
+
+.bball-games-list img {
+    max-width: 150px; 
+    display: block;
+    margin: 0 auto;  
+}
+
+.bball-games-list a {
+    text-decoration: none;
+    color: #229DF9;
+}
+
+
+
+#soccer {
+    text-align: left;
+    margin-top: 95px;
+}
+
+#soccer h3 {
+    background-color: #85b3d6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #122D62;
+}
+
+.soccer-games-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.soccer-games-list li {
+    margin: 10px;
+    text-align: center;
+}
+
+.soccer-games-list img {
+    max-width: 150px; 
+    display: block;
+    margin: 0 auto;  
+}
+
+.soccer-games-list a {
+    text-decoration: none;
+    color: #229DF9;
+}
+
+
+
+
+
+
+
+
 
 
 .game-list-container {
