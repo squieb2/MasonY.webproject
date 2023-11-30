@@ -833,12 +833,12 @@ main p{
 }
 
 
-#football {
+#RPGg {
     text-align: left;
     margin-top: 95px;
 }
 
-#football h3 {
+#RPGg h3 {
     background-color: #85b3d6;
     padding: 10px 20px;
     border-radius: 10px;
@@ -848,7 +848,7 @@ main p{
     color: #122D62;
 }
 
-.football-games-list {
+.rpg-games-list {
     list-style: none;
     padding: 0;
     display: flex;
@@ -858,30 +858,30 @@ main p{
     align-items: center;
 }
 
-.football-games-list li {
+.rpg-games-list li {
     margin: 10px;
     text-align: center;
 }
 
-.football-games-list img {
+.rpg-games-list img {
     max-width: 150px; 
     display: block;
     margin: 0 auto;  
 }
 
-.football-games-list a {
+.rpg-games-list a {
     text-decoration: none;
     color: #229DF9;
 }
 
 
 
-#bball {
+#adventureG {
     text-align: left;
     margin-top: 95px;
 }
 
-#bball h3 {
+#adventureG h3 {
     background-color: #85b3d6;
     padding: 10px 20px;
     border-radius: 10px;
@@ -891,7 +891,7 @@ main p{
     color: #122D62;
 }
 
-.bball-games-list {
+.adventureG-games-list {
     list-style: none;
     padding: 0;
     display: flex;
@@ -901,30 +901,28 @@ main p{
     align-items: center;
 }
 
-.bball-games-list li {
+.adventureG-games-list li {
     margin: 10px;
     text-align: center;
 }
 
-.bball-games-list img {
+.adventureG-games-list img {
     max-width: 150px; 
     display: block;
     margin: 0 auto;  
 }
 
-.bball-games-list a {
+.adventureG-games-list a {
     text-decoration: none;
     color: #229DF9;
 }
 
-
-
-#soccer {
+#upG {
     text-align: left;
     margin-top: 95px;
 }
 
-#soccer h3 {
+#upG h3 {
     background-color: #85b3d6;
     padding: 10px 20px;
     border-radius: 10px;
@@ -934,7 +932,72 @@ main p{
     color: #122D62;
 }
 
-.soccer-games-list {
+#upcoming {
+    text-align: left;
+    margin-top: 95px;
+}
+
+#upcoming h3{
+    background-color: #85b3d6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #122D62;
+}
+
+#simG {
+    text-align: left;
+    margin-top: 95px;
+}
+
+#simG h3 {
+    background-color: #85b3d6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #122D62;
+}
+
+
+
+
+
+
+
+#actionG {
+    text-align: left;
+    margin-top: 95px;
+}
+
+#actionG h3 {
+    background-color: #85b3d6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #122D62;
+}
+
+#popular{
+    text-align: left;
+    margin-top: 95px;
+}
+#popular h3 {
+    background-color: #85b3d6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #122D62;
+}
+
+.action-games-list {
     list-style: none;
     padding: 0;
     display: flex;
@@ -944,18 +1007,18 @@ main p{
     align-items: center;
 }
 
-.soccer-games-list li {
+.action-games-list li {
     margin: 10px;
     text-align: center;
 }
 
-.soccer-games-list img {
+.action-games-list img {
     max-width: 150px; 
     display: block;
     margin: 0 auto;  
 }
 
-.soccer-games-list a {
+.action-games-list a {
     text-decoration: none;
     color: #229DF9;
 }
