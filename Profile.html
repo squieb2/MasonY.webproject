@@ -1,0 +1,281 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore your gaming profile on this personalized platform. Customize your account settings, add a profile picture, and share your gaming preferences. Log and rate your favorite games, providing details like completion dates, ratings, and hours played. Connect with a vibrant gaming community. Save changes to your profile with ease. Game Log - Your space to showcase your gaming journey.">
+
+
+    <title>Your Profile</title>
+    <link rel="stylesheet" href="profile.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container light-style flex-grow-1 container-p-y">
+        <h4 class="font-weight-bold py-3 mb-4"><a href="home.html">Home</a></h4>
+        <h4 class="font-weight-bold py-3 mb-4">
+            Account settings
+        </h4>
+       
+        <div class="card overflow-hidden">
+            <div class="row no-gutters row-bordered row-border-light">
+                <div class="col-md-3 pt-0">
+                    <div class="list-group list-group-flush account-settings-links">
+                        <a class="list-group-item list-group-item-action active" data-toggle="list"
+                            href="#account-general">General</a>
+                        
+                        <a class="list-group-item list-group-item-action" data-toggle="list"
+                            href="#account-info">Info</a>
+                        <a class="list-group-item list-group-item-action" data-toggle="list"
+                            href="#account-social-links">Social links</a>
+                        
+                        
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="tab-content">
+                        <div class="tab-pane fade active show" id="account-general">
+                            <div class="card-body media align-items-center">
+                                <img src="images/Steam_icon_logo.svg.png" alt="steam logo"
+                                    class="d-block ui-w-80">
+                                <div class="media-body ml-4">
+                                    <label class="btn btn-outline-primary">
+                                        Upload new photo
+                                        <input type="file" class="account-settings-fileinput">
+                                    </label> &nbsp;
+                                    <button type="button" class="btn btn-default md-btn-flat">Reset</button>
+                                   
+                                </div>
+                            </div>
+                            <hr class="border-light m-0">
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label class="form-label">Username</label>
+                                    <input type="text" class="form-control mb-1" value="squieb">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Name</label>
+                                    <input type="text" class="form-control" value="Mason">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">E-mail</label>
+                                    <input type="text" class="form-control mb-1" value="my00028@my.westga.edu">
+                                    
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Favorite Game</label>
+                                    <input type="text" class="form-control" value="Elden Ring">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-pane fade" id="account-info">
+                            <div class="card-body pb-2">
+                                <div class="form-group">
+                                    <label class="form-label">Bio</label>
+                                    <textarea class="form-control"
+                                        rows="5"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Birthday</label>
+                                    <input type="text" class="form-control" value="October 20, 2002">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Country</label>
+                                    <select class="custom-select">
+                                        <option>USA</option>
+                                        <option selected>Canada</option>
+                                        <option>UK</option>
+                                        <option>Germany</option>
+                                        <option>France</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <hr class="border-light m-0">
+                            <div class="card-body pb-2">
+                             
+                                <div class="form-group">
+                                    <label class="form-label">Phone</label>
+                                    <input type="text" class="form-control" value="+0 (123) 456 7891">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Preferred Platform To Play Games</label>
+                                    <input type="text" class="form-control" value="Steam">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="account-social-links">
+                            <div class="card-body pb-2">
+                                <div class="form-group">
+                                    <label class="form-label">Steam</label>
+                                    <input type="text" class="form-control" value="https://store.steampowered.com/">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Twitter / X</label>
+                                    <input type="text" class="form-control" value="https://www.x.com/user">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Google+</label>
+                                    <input type="text" class="form-control" value>
+                                
+                                <div class="form-group">
+                                    <label class="form-label">Instagram</label>
+                                    <input type="text" class="form-control" value="https://www.instagram.com/user">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="text-right mt-3">
+            <button type="button" class="btn btn-primary">Save changes</button>&nbsp;
+            <button type="button" class="btn btn-default">Cancel</button>
+        </div>
+    </div>
+    </div>
+        
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+
+    
+
+
+
+<main class="table">
+    <section class="table__header">
+        <h1>List Of Rated Games</h1>
+        
+        
+    </section>
+    <section class="table__body">
+        <table>
+            <thead>
+                <tr>
+                    <th> Id </th>
+                    <th> Game </th>
+                    <th> Date Of Completion </th>
+                    <th> Rating </th>
+                    <th> Hours Played </th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> 1 </td>
+                    <td> Elden Ring</td>
+                    <td> March 8th, 2022 </td>
+                    <td> 10 </td>
+                    <td>
+                        <p class="hrsplayed delivered">206.3 hours</p>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td> 2 </td>
+                    <td> Tekken 7 </td>
+                    <td> N/A </td>
+                    <td> 8 </td>
+                    <td>
+                        <p class="hrsplayed delivered">332.9 hours</p>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td> 3</td>
+                    <td> Mortal Kombat 1</td>
+                    <td> September 15th, 2023 </td>
+                    <td> 8 </td>
+                    <td>
+                        <p class="hrsplayed">39.6 hours</p>
+                    </td>
+                   
+                </tr>
+                <tr>
+                    <td> 4</td>
+                    <td> Dark Souls III </td>
+                    <td> April 24th, 2021 </td>
+                    <td> 9 </td>
+                    <td>
+                        <p class="hrsplayed">83.4 hours</p>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td> 5</td>
+                    <td>Sekiro: Shadows Die Twice</td>
+                    <td> May 4th, 2021 </td>
+                    <td> 10 </td>
+                    <td>
+                        <p class="hrsplayed">171.1 hours</p>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td> 6</td>
+                    <td> Hollow Knight </td>
+                    <td> December 13th, 2021</td>
+                    <td> 9 </td>
+                    <td>
+                        <p class="hrsplayed">44.4 houirs</p>
+                    </td>
+                   
+                </tr>
+                <tr>
+                    <td> 7</td>
+                    <td> Counter Strike 2 </td>
+                    <td> N/A </td>
+                    <td> 7 </td>
+                    <td>
+                        <p class="hrsplayed">399.7 hours</p>
+                    </td>
+                   
+                </tr>
+                <tr>
+                    <td> 8</td>
+                    <td> Marvel's Spider-Man Remastered</td>
+                    <td> August 29th, 2022 </td>
+                    <td> 8 </td>
+                    <td>
+                        <p class="hrsplayed">37.7 hours</p>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td> 9</td>
+                    <td>Devil May Cry 5 </td>
+                    <td> July 27th, 2022 </td>
+                    <td> 8 </td>
+                    <td>
+                        <p class="hrsplayed">20 hours</p>
+                    </td>
+                   
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+</main>
+   
+</body>
+    
+
+
+
+
+
+
+
+
+
+
+</html>

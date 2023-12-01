@@ -3,6 +3,8 @@
 <head>
 <title>Game Log</title>
 <meta charset="utf-8">
+<meta name="description" content="Explore Game Log, a platform for gaming enthusiasts of all ages and backgrounds. Log your gaming experiences, track playtime, and rate your favorite games. Discover popular and new releases, diverse genres, and most-played titles. Join an inclusive community that celebrates the joy of gaming. Welcome to Game Log – where every gamer finds a home.">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="stylesheet.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -13,12 +15,12 @@
     <div class="navbar">
         <div id="wrapper">
             <header class="header">
-            <a href="home.html" class="logo"><img src="logo.png" alt="Game Log Logo"></a>
-            <h1><a href="home.html">Game Log</a></h1>
+            <a href="home.html" class="logo"><img src="images/logo.png" alt="Game Log Logo"></a>
+            <h1><a href="home.html" tabindex="1">Game Log</a></h1>
             <div class="login-signup">
-                <a href="login.html">Login</a>
+                <a href="login.html" tabindex="2">Login</a>
                 <span class="divider">|</span>
-                <a href="signup.html">Sign Up</a>
+                <a href="signup.html" tabindex="3">Sign Up</a>
             </div>
             </header>
         </div>
@@ -27,22 +29,22 @@
         
         <nav> 
             <ul>
-                <li><a href="populrandnewreleases.html">Popular & New Releases</a>
+                <li tabindex="4"><a href="populrandnewreleases.html">Popular & New Releases</a>
                    
                 </li>
-                <li><a href="Genres.html">Genres</a>
+                <li tabindex="5"><a href="Genres.html">Genres</a>
                     <ul class="dropdown">
-                        <li><a href="actiongenre.html">Action</a></li>
-                        <li><a href="advgenre.html">Adventure</a></li>
-                        <li><a href="RPGgenre.html">RPG</a></li>
-                        <li><a href="SimGenre.html">Simulation</a></li>
+                        <li tabindex="6"><a href="actiongenre.html">Action</a></li>
+                        <li tabindex="7"><a href="advgenre.html">Adventure</a></li>
+                        <li tabindex="8"><a href="RPGgenre.html">RPG</a></li>
+                        <li tabindex="9"><a href="SimGenre.html">Simulation</a></li>
                         
                         
                     </ul>
                 </li>
                     
                 
-                <li><a href="Profile.html">Profile</a></li>
+                <li tabindex="10"><a href="Profile.html">Profile</a></li>
                 
                 
 
@@ -56,9 +58,23 @@
         
     <main>
         <h2>Welcome to Game Log!</h2>
-        <p>Game Log is a website that allows users of all platforms to log the games they play, the amount of hours poured into a game, and rate games.</p>
+        <p>Game Log is a website that allows users of all platforms to log the games they play, the amount of hours poured into a game, and rate games. At Game Log, our platform is meticulously crafted with a diverse and vibrant gaming community in mind. Our target audience encompasses a wide spectrum of gaming enthusiasts, fostering an inclusive environment that welcomes individuals of all ages, genders, and educational backgrounds.</p>
 
         <p>Game Log's listed games link to the steam page to give you more information. Furthermore, the data determining the amount of players playing a game currently are courtesy of SteamDB!</p>
+
+        <h2>Game Log's purpose</h2>
+        <p>The purpose of this site is to let users view games based on when the game released, how popular the game currently is, genres, and store games to a table that lets the user rate the game on a scale of 1-10. The functionality for adding games to a list and rating has sadly not been implemented. Stay tuned!</p>
+
+        <h2>Target Audience</h2>
+        <p>Game Log's target audience is for anyone who enjoys playing games and wants a system to rate the games they have played or completed.</p>
+        <h3>For Gaming Enthusiasts</h3>
+        <p>If you are passionate about gaming, love exploring new titles, and find joy in sharing your experiences and opinions, Game Log is made for you. Our platform provides a space for you to log the the games you play, track your play time, and rate the games you played!</p>
+        <h3>For Any ages between 13-50</h3>
+        <p>This site is catered to any individuals who are at the minimum age of 13 offerinbg a shared space for teenagers, young adults, and everyone in between. No matter your age, if you love gaming, you're right at home here.</p>
+        <h3>Inlcusivity for All Genders</h3>
+        <p>We welcome individuals of all genders. Our community is built on the principle that gaming is for any and everyone.</p>
+        <h3>Education Level & Steam Users</h3>
+        <p>Game Log is open to individuals of any education level. Whether you're a high school student, or a college graduate, our plat form connects individuals who share a passion for gaming. Game Log is geared mainly towards Steam users since the games in each category lead to the steam page, giving you more information about the game.</p>
         <div id="featured">
     
                 <h3><a href="featgame.html">Featured Games</a></h3>
@@ -170,7 +186,7 @@
             <div class="content">
                 <div class="place">
                     <span class="fas fa-map-marker-alt"></span>
-                    <span class="text">Carrolton, Georgia</span>
+                    <span class="text"><a href="https://carrolltonga.com/">Carrolton, Georgia</a></span>
                 </div>
                 <div class="phone">
                     <span class="fas fa-phone-alt"></span>
@@ -178,7 +194,7 @@
                 </div>
                 <div class="email">
                     <span class="fas fa-envelope"></span>
-                    <span class="text">my00028@my.westga.edu</span>
+                    <span class="text"><a href="mailto: abc@example.com">my00028@my.westga.edu</a></span>
                 </div>
             </div>
          </div>
@@ -186,10 +202,10 @@
          <div class="right-box">
             <h2>Contact Us!</h2>
             <div class="content">
-                <form action="#">
+                <form action="https://webdevbasics.net/scripts/demo.php" method="post">
                     <div class="email">
                         <div class="text">Email:</div>
-                        <textarea rows="2" cols="25"></textarea>
+                        <textarea name="Email:" rows="2" cols="25"></textarea>
                     </div>
                     <div class="btn">
                         <button type="submit">Send</button>

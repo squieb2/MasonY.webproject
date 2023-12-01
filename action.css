@@ -1246,6 +1246,10 @@ footer{
   .bottom center a:hover{
     text-decoration: underline;
   }
+
+
+
+  
   @media screen and (max-width: 900px) {
     footer{
       position: relative;
